@@ -1,0 +1,82 @@
+
+
+NET "Rx_data[7]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[6]" LOC = R11;
+
+
+NET "Rx_data[6]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[5]" LOC = N11;
+
+
+NET "Rx_data[5]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[4]" LOC = M11;
+
+
+NET "Rx_data[4]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[3]" LOC = V15;
+
+
+NET "Rx_data[3]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[2]" LOC = U15;
+
+
+NET "Rx_data[2]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[1]" LOC = V16;
+
+
+NET "Rx_data[1]" IOSTANDARD = LVCMOS33;
+
+
+NET "Rx_data[0]" LOC = U16;
+
+
+NET "Rx_data[0]" IOSTANDARD = LVCMOS33;
+
+
+NET "clk" LOC = V10;
+
+
+NET "clk" IOSTANDARD = LVCMOS33;
+
+
+NET "rst" LOC = T10;
+
+
+NET "rst" IOSTANDARD = LVCMOS33;
+
+
+NET "RsRx" LOC = N17;
+
+
+NET "RsRx" IOSTANDARD = LVCMOS33;
+
+
+
+
+NET "RsTx" LOC = N18;
+
+//PIN "PLL/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+//PIN "rst_IBUF_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+
+//NET "rst" CLOCK_DEDICATED_ROUTE = FALSE;
+
+# PlanAhead Generated physical constraints 
+
+NET "sys_finish" LOC = T11;
+
+# PlanAhead Generated IO constraints 
+
+NET "sys_finish" IOSTANDARD = LVCMOS33;
